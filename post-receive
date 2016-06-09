@@ -1,2 +1,2 @@
 #!/bin/sh
-GIT_WORK_TREE=/var/www/www.kalil.fyi git pull
+GIT_WORK_TREE=/var/www/www.kalil.fyi git checkout -f
