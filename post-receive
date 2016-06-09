@@ -1,2 +1,2 @@
 #!/bin/sh
-GIT_WORK_TREE=/var/www/www.kalil.fyi git checkout -f
+GIT_WORK_TREE=/var/www/www.kalil.fyi git fetch
