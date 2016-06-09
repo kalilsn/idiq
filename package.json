@@ -1,0 +1,22 @@
+{
+  "name": "idiq",
+  "version": "1.0.0",
+  "description": "IDIQ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalilsn/idiq.git"
+  },
+  "author": "Kalil Smith-Nuevelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalilsn/idiq/issues"
+  },
+  "homepage": "https://github.com/kalilsn/idiq#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2"
+  }
+}
