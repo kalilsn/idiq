@@ -1201,16 +1201,16 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 49px; }
 
 h2, .h2 {
-  font-size: 30px; }
+  font-size: 42px; }
 
 h3, .h3 {
-  font-size: 24px; }
+  font-size: 35px; }
 
 h4, .h4 {
-  font-size: 18px; }
+  font-size: 28px; }
 
 h5, .h5 {
   font-size: 14px; }
@@ -4312,7 +4312,7 @@ a.badge:hover, a.badge:focus {
     height: auto;
     margin-left: auto;
     margin-right: auto; }
-  .thumbnail .caption {
+  .thumbnail .caption, .thumbnail .caption-top, .thumbnail .caption-bottom {
     padding: 9px;
     color: #333333; }
 
@@ -5729,10 +5729,14 @@ button.close {
 body {
   padding-top: 80px; }
 
-.jumbotron {
-  padding-top: 0; }
-  .jumbotron img {
-    height: calc(100vh - 80px); }
+.top {
+  padding-top: 0;
+  height: calc(100vh - 80px);
+  background-image: url("../img/top.jpg");
+  margin-bottom: 2em; }
+  .top .caption-bottom {
+    margin-bottom: 15vh;
+    margin-left: 15vw; }
 
 .navbar-brand {
   padding: 0; }
@@ -5756,10 +5760,9 @@ body {
   padding-top: 0;
   padding-bottom: 0; }
 
-.image-caption {
+.caption, .caption-top, .caption-bottom {
   position: absolute;
   z-index: 1;
-  top: 0;
   left: 0;
   padding-top: inherit;
   padding-left: inherit;
@@ -5771,11 +5774,11 @@ body {
           user-select: none;
   cursor: default; }
 
-.jumbotron .image-caption {
-  position: relative;
-  color: #fff;
-  bottom: 0;
-  margin-top: -180px; }
+.caption-top {
+  top: 0; }
+
+.caption-bottom {
+  bottom: 0; }
 
 .statistic img {
   max-height: 400px; }
