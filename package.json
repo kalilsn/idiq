@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/kalilsn/idiq#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.2"
+    "bootstrap-sass": "^3.3.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0"
   }
 }
