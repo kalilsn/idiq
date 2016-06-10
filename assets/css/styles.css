@@ -5762,12 +5762,30 @@ body {
   padding-top: inherit;
   padding-left: inherit;
   color: #fff;
-  margin-left: 1em; }
+  margin-left: 1em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default; }
 
 .jumbotron .image-caption {
   position: relative;
   color: #fff;
   bottom: 0;
   margin-top: -180px; }
+
+.statistic img {
+  max-height: 400px; }
+
+.bio {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #dddddd; }
+  .bio img {
+    max-height: 400px; }
+  .bio h1,
+  .bio p {
+    vertical-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
