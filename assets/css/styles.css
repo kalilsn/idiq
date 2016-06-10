@@ -5727,15 +5727,17 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  padding-top: 0; }
+  padding-top: 80px; }
 
 .jumbotron {
   padding-top: 0; }
+  .jumbotron img {
+    height: calc(100vh - 80px); }
 
 .navbar-brand {
   padding: 0; }
   .navbar-brand img {
-    height: 90px; }
+    height: 80px; }
 
 .navbar {
   margin-bottom: 0; }
@@ -5744,8 +5746,8 @@ body {
 .navbar-nav li,
 .navbar-form li,
 .navbar-nav li a li {
-  height: 100px;
-  line-height: 100px; }
+  height: 80px;
+  line-height: 80px; }
 
 .navbar-form {
   margin-top: 0; }
