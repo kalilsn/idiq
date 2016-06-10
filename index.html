@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="UTF-8">
     <title>Identification IQ</title>
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.min.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -26,13 +27,12 @@
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     <li><a href="#">Why IDIQ?</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            
                 <form class="navbar-form navbar-right" role="search">
                     <div class="form-group">
                         <input type="text" class="search-query form-control" placeholder="">
@@ -47,9 +47,34 @@
         <!-- /.container-fluid -->
     </nav>
     <div class="jumbotron">
-        <img class="img-responsive" src="assets/img/top.png" alt="">
+        <img class="img-responsive" src="assets/img/top.jpg" alt="">
+        <div class="image-caption">
+            <h1>Get real about fake ID.</h1>
+            <h4>Smaller text that goes into a bit more detail about why you should give money to IDIQ and Fraser Ohlgren</h4>
+        </div>
     </div>
-    <h1>it worked!</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="image-caption">Fact or statistic about underage drinking.</h2>
+                <img src="assets/img/stat1.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4">
+                <h3 class="image-caption">Another fact or statistic about underage drinking.</h2>
+                <img src="assets/img/stat2.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4">
+                <h3 class="image-caption">A third fact or statistic about underage drinking.</h2>
+                <img src="assets/img/stat3.jpg" alt="" class="img-responsive">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <h2 class="text-right">Surprising fact about fake IDs that will convince the reader.</h2>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
